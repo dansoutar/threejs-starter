@@ -7,7 +7,7 @@ class Sketch {
         document.getElementById('container').appendChild( this.renderer.domElement );
     
         this.camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
-        this.camera.position.z = 1;
+        this.camera.position.z = 1.5;
         this.scene = new THREE.Scene();
         this.addMesh();
         this.time = 0;
